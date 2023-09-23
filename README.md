@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@deno/mod.js';
+import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.1.0-deno/mod.js';
 ```
 
 #### isNegativeZero( value )
@@ -122,7 +122,7 @@ bool = isNegativeZero.isObject( new Number( -0.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@deno/mod.js';
+import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.1.0-deno/mod.js';
 
 var bool = isNegativeZero( -0.0 );
 // returns true
