@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@esm/index.mjs';
+import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.2.2-esm/index.mjs';
 ```
 
 #### isNegativeZero( value )
@@ -127,7 +127,7 @@ bool = isNegativeZero.isObject( new Number( -0.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@esm/index.mjs';
+import isNegativeZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-zero@v0.2.2-esm/index.mjs';
 
 var bool = isNegativeZero( -0.0 );
 // returns true
